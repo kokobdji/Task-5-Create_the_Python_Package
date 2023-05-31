@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.sources]
+"unique_characters_kokobdji" = 'counter_characters'
+
+[project]
+name = "counter_unique_characters_final"
+version  =  "0.0.1"
+authors = [
+  { name ="George Novozhylov", email ="kokobdji@gmail.com" },
+]
+maintainers = [
+    { name ="Divnych Andrii", email ="divnycha05@gmail.com"},
+]
+description = "Takes a string and returns the number of unique characters in the string"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
